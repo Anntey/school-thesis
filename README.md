@@ -1,8 +1,11 @@
 ## Graduate thesis
 
-- Pre-process the tabular data
-- Make descriptive visualizations of the data
-- Extract a textual feature with deep learning models from the textual data
+1. Pre-process the tabular data
+2. Make descriptive visualizations of the data
+3. Extract a textual feature with a biLSTM model from the textual data
+    - with Word2Vec embeddings
+    - with GloVe embeddings
+5. Extract a textual feature with ALBERT from the textual data
     - Visualize intermediate representations in reduced space
-- Incorporate the extracted feature with the other attributes available in the tabular data
-- Model said data with a linear and a non-linear model with and without the new feature included 
+4. Use the extracted feature from the best-performing model along with the other attributes in a XGBoost model
+6. Use the extracted feature from the best-performing model along with the other attributes in an OLS model
